@@ -129,7 +129,7 @@ h1 {
     display: block
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .mob-show {
         display: block
     }
