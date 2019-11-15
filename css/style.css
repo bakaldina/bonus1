@@ -182,12 +182,21 @@ h1 {
     .card-header {
         cursor: pointer;
     }
-    .card-header img {
-        transition: transform 1s ease;
-        float: right
+    h1.card-header span {
+        display: inline-block;
+        vertical-align: middle;
+        width: calc(100% - 50px)
     }
     .card-header.collapsed img {
         transition: transform 1s ease;
         transform: rotate(360deg);
+    }
+    .card-header img {
+        transition: transform 1s ease;
+        display: inline-block;
+        vertical-align: middle;
+        width: 28px;
+        padding-top: 11px;
+        transform: rotate(180deg);
     }
 }
