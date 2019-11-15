@@ -185,7 +185,8 @@ h1 {
     h1.card-header span {
         display: inline-block;
         vertical-align: middle;
-        width: calc(100% - 50px)
+        width: calc(100% - 50px);
+        font-size: 22px
     }
     .card-header.collapsed img {
         transition: transform 1s ease;
