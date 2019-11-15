@@ -199,4 +199,7 @@ h1 {
         padding-top: 11px;
         transform: rotate(180deg);
     }
+    .conditions-footer-text {
+        padding: 30px 0;
+    }
 }
